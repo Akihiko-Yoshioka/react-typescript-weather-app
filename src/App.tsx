@@ -13,7 +13,7 @@ type ResultsState = {
 
 const App = () => {
   const [city,setCity]=useState<string>("")
-  const [results, setResults] = useState({
+  const [results, setResults] = useState<ResultsState>({
     county: "",
     cityName: "",
     temperature: "",
