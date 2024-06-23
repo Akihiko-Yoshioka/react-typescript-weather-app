@@ -39,7 +39,7 @@ const App = () => {
         setLoading(false)
         setCity("")
     })
-    .catch(() => alert("エラーが発生しました.ページをリロードして、もう一度入力してください。"))
+    .catch(() => alert("エラーが発生しました.ページをリロードして、もう一度正しい【都市名】を入力してください。"))
     // .catch(() => console.error)
   }
 
